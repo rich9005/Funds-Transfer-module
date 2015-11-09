@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundsTransferModule", "FundsTransferModule\FundsTransferModule.csproj", "{46A4BF58-108B-4781-8B3E-CA40452A1571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTContract", "FTContract\FTContract.csproj", "{70C83FE7-1150-4B07-AEA2-62FF60B6FB4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBO", "FTBO\FTBO.csproj", "{431617C5-1EED-41B1-ABC9-5B64DCDCE895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTFactory", "FTFactory\FTFactory.csproj", "{728CB7DE-A36A-4A06-9966-E1712E5A98AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTDAL", "FTDAL\FTDAL.csproj", "{52858FFD-1F09-4337-8CFC-5B6F767F897D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBLL", "FTBLL\FTBLL.csproj", "{7B0095C6-F355-4D12-A6E9-1330E62C888A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTEncryptEngine", "FTEncryptEngine\FTEncryptEngine.csproj", "{3FF77FAE-EDA3-4B6B-83A1-A4E226DAEE79}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.25.192.73:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FundsTransferModule\\FundsTransferModule.csproj
+		SccProjectName1 = FundsTransferModule
+		SccLocalPath1 = FundsTransferModule
+		SccProjectUniqueName2 = FTContract\\FTContract.csproj
+		SccProjectName2 = FTContract
+		SccLocalPath2 = FTContract
+		SccProjectUniqueName3 = FTBO\\FTBO.csproj
+		SccProjectName3 = FTBO
+		SccLocalPath3 = FTBO
+		SccProjectUniqueName4 = FTFactory\\FTFactory.csproj
+		SccProjectName4 = FTFactory
+		SccLocalPath4 = FTFactory
+		SccProjectUniqueName5 = FTDAL\\FTDAL.csproj
+		SccProjectName5 = FTDAL
+		SccLocalPath5 = FTDAL
+		SccProjectUniqueName6 = FTBLL\\FTBLL.csproj
+		SccProjectName6 = FTBLL
+		SccLocalPath6 = FTBLL
+		SccProjectUniqueName7 = FTEncryptEngine\\FTEncryptEngine.csproj
+		SccProjectName7 = FTEncryptEngine
+		SccLocalPath7 = FTEncryptEngine
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46A4BF58-108B-4781-8B3E-CA40452A1571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A4BF58-108B-4781-8B3E-CA40452A1571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A4BF58-108B-4781-8B3E-CA40452A1571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A4BF58-108B-4781-8B3E-CA40452A1571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C83FE7-1150-4B07-AEA2-62FF60B6FB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C83FE7-1150-4B07-AEA2-62FF60B6FB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C83FE7-1150-4B07-AEA2-62FF60B6FB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C83FE7-1150-4B07-AEA2-62FF60B6FB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431617C5-1EED-41B1-ABC9-5B64DCDCE895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431617C5-1EED-41B1-ABC9-5B64DCDCE895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431617C5-1EED-41B1-ABC9-5B64DCDCE895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431617C5-1EED-41B1-ABC9-5B64DCDCE895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728CB7DE-A36A-4A06-9966-E1712E5A98AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728CB7DE-A36A-4A06-9966-E1712E5A98AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728CB7DE-A36A-4A06-9966-E1712E5A98AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728CB7DE-A36A-4A06-9966-E1712E5A98AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52858FFD-1F09-4337-8CFC-5B6F767F897D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52858FFD-1F09-4337-8CFC-5B6F767F897D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52858FFD-1F09-4337-8CFC-5B6F767F897D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52858FFD-1F09-4337-8CFC-5B6F767F897D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0095C6-F355-4D12-A6E9-1330E62C888A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0095C6-F355-4D12-A6E9-1330E62C888A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0095C6-F355-4D12-A6E9-1330E62C888A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0095C6-F355-4D12-A6E9-1330E62C888A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF77FAE-EDA3-4B6B-83A1-A4E226DAEE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF77FAE-EDA3-4B6B-83A1-A4E226DAEE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF77FAE-EDA3-4B6B-83A1-A4E226DAEE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF77FAE-EDA3-4B6B-83A1-A4E226DAEE79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

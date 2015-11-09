@@ -1,0 +1,155 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Master.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	    <script type="text/javascript" src="engine1/jquery.js"></script>
+        <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" />
+        <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="~/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen" />
+        <link href="~/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen" />
+        <link href="Styles/style.css" rel="stylesheet" media="screen" />
+        <title></title>
+        <asp:ContentPlaceHolder id="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <style type ="text/css">
+            body
+            {
+                background-color:#eeeeee;
+            }
+            #header
+            {
+                background-color:#434343;
+            }    
+            .logo
+            {
+                padding-top:25px;
+                padding-bottom:20px;
+                margin-left:50px;
+                font-size:25px;
+                color:White;
+            }
+            .top-menu
+            {
+                float:right;
+                margin-right:60px;
+                width: 920px;
+                margin-top:-40px;
+            }
+            .menu
+            {
+                margin-left:20px;
+                margin-top:50px; 
+            }   
+            .header-content
+            {
+                padding-bottom:9px;
+                border-bottom: 1px solid grey;
+            }
+            .contentslider
+            {
+                padding-top:50px;
+            }
+            #content
+            {
+                background-color:#eeeeee;
+                 height:100%;
+            }   
+            .bankdescription
+            {
+                padding-top:50px;
+                margin-left:40px;     
+                width:350px;
+            } 
+            .contentslider
+            {
+            }    
+            #footer
+            {
+                margin-top:180px;
+            }
+            .footercontent
+            {
+               padding-left:60px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <form id="form1" runat="server">
+            <div id = "header">
+                <div class="header-content">
+                    <div class ="logo">
+                        GlobalX
+                    </div>
+                    <div class= "top-menu">
+                        <ul class="nav nav-pills pull-right">
+                            <li><a href="Home.aspx">Home</a> </li>
+                           <%-- <li><a href="#">About</a></li>--%>
+                            <li><a href="LoginHome.aspx">Login</a></li>
+                        </ul>
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+            <div id ="content">
+                <div class="bankdescription">
+                     <div class="page-header">
+                        <h1> GlobalX PVT LTD </h1><br />
+                        <p> GlobalX is an online Global Bank, here you can add accounts of various banks, transfer funds between your various accounts and maintain all your 
+                            transactions in a single user friendly and simple Multi Banking Portal. 
+                        </p><br />
+                        <%--<p>
+                            <a class="btn btn-primary btn-large">
+                                Learn more
+                            </a>
+                        </p>--%>
+                    </div>
+                </div>
+
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server"> 
+                </asp:ContentPlaceHolder>
+
+                <div id="wowslider-container1">
+                    <div class = "contentslider">
+                        <div class="ws_images">
+                            <ul>
+                                <li><img src="data1/images/slider_ebank.jpg" alt="slider_ebank" title="slider_ebank" id="wows1_0"/></li>
+                                <li><img src="data1/images/online_banking.jpg" alt="online_banking" title="online_banking" id="wows1_1"/></li>
+                                <li><img src="data1/images/onlinebanking.jpg" alt="onlinebanking" title="onlinebanking" id="wows1_2"/></li>
+                                <li><img src="data1/images/retail_02.jpg" alt="Retail_02" title="Retail_02" id="wows1_3"/></li>
+                            </ul>
+                        </div>
+                        <div class="ws_bullets">
+                            <div>
+                                <a href="#" title="slider_ebank"><img src="data1/tooltips/slider_ebank.jpg" alt="slider_ebank"/>1</a>
+                                <a href="#" title="online_banking"><img src="data1/tooltips/online_banking.jpg" alt="online_banking"/>2</a>
+                                <a href="#" title="onlinebanking"><img src="data1/tooltips/onlinebanking.jpg" alt="onlinebanking"/>3</a>
+                                <a href="#" title="Retail_02"><img src="data1/tooltips/retail_02.jpg" alt="Retail_02"/>4</a>
+                            </div>
+                        </div>
+                        <a class="wsl" href="http://wowslider.com">
+                            jQuery Horizontal Image Slider by WOWSlider.com v2.9
+                        </a>
+	                    <div class="ws_shadow"></div>
+	                </div>
+	                <script type="text/javascript" src="engine1/wowslider.js"></script>
+	                <script type="text/javascript" src="engine1/script.js"></script>
+	                
+                    <!-- End WOWSlider.com BODY section -->
+                </div>
+            </div>
+            <div id="footer">
+                <div class ="footercontent">
+                    <ul class="breadcrumb">
+                        <li class="active"><center>&copy; Copyright MultiBank PVT LTD </center></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

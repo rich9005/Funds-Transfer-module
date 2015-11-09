@@ -1,0 +1,10 @@
+c:\documents and settings\586847\my documents\visual studio 2010\Projects\TagCloud\TagCloud\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\586847\my documents\visual studio 2010\Projects\TagCloud\TagCloud\bin\TagCloud.dll
+c:\documents and settings\586847\my documents\visual studio 2010\Projects\TagCloud\TagCloud\bin\TagCloud.pdb
+c:\documents and settings\586847\my documents\visual studio 2010\Projects\TagCloud\TagCloud\obj\Debug\TagCloud.dll
+c:\documents and settings\586847\my documents\visual studio 2010\Projects\TagCloud\TagCloud\obj\Debug\TagCloud.pdb
+C:\Documents and Settings\586847\My Documents\TagCloud\TagCloud\bin\TagCloud.dll
+C:\Documents and Settings\586847\My Documents\TagCloud\TagCloud\bin\TagCloud.pdb
+C:\Documents and Settings\586847\My Documents\TagCloud\TagCloud\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\586847\My Documents\TagCloud\TagCloud\obj\Debug\TagCloud.dll
+C:\Documents and Settings\586847\My Documents\TagCloud\TagCloud\obj\Debug\TagCloud.pdb
